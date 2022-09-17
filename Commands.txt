@@ -1,0 +1,10 @@
+go version
+go env
+
+go run main.go
+go run -x main.go
+
+
+go build
+
+gofmt -w main.go
