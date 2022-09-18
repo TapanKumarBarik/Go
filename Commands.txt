@@ -8,3 +8,15 @@ go run -x main.go
 go build
 
 gofmt -w main.go
+
+
+
+%d integer
+	%v string
+	%f float
+	%s string
+	%q  quoted string
+	%v any
+	%T Type
+	%t boolean
+	%b base
